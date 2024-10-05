@@ -30,7 +30,6 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Load the image
 image = cv2.imread('Tiger.jpg')  # Replace with your image path
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # Original Image
